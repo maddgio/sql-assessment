@@ -1,0 +1,6 @@
+create table website_revenue (
+ date datetime,
+ campaign_id varchar(50),
+ state varchar(2),
+ revenue float
+);
