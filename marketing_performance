@@ -7,3 +7,10 @@ create table marketing_data (
  clicks float,
  conversions float
 );
+
+
+Write a query to get the sum of impressions by day.
+
+select sum(impressions)
+from marketing_data
+order by date
